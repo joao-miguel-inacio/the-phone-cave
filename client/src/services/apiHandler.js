@@ -18,8 +18,17 @@ service.getPhoneData = async (id) => {
 
 service.getAllPhones = async () => {
   try {
-    const { phones } = await service.get("/phones");
+    const phones = await service.get("/phones");
     return phones;
+  } catch (error) {
+    errorHandler(error);
+  }
+};
+
+service.getPhoneData = async (id) => {
+  try {
+    const phone = await service.get(`/phones/${id}`);
+    return phone;
   } catch (error) {
     errorHandler(error);
   }

@@ -11,7 +11,7 @@ const Navbar = () => {
       <NavLink className="logo" to="/">
         The Phone Cave
       </NavLink>
-      <NavLink to="/phones">phones</NavLink>
+      <NavLink to="/phones">Phones</NavLink>
     </nav>
   );
 };

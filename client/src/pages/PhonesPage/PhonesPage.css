@@ -1,0 +1,31 @@
+.phone-list-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.phone-list-image {
+    margin: 10vw;
+    max-width: 10vw;
+    height: auto;
+}
+
+.phone-list-details > h2,
+.phone-list-details > h3,
+.phone-list-details > p {
+    margin: 0;
+    font-weight: normal;
+}
+
+.phone-list-details > h3 {
+    color: grey;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+spacer {
+    height: 10vh;
+}
